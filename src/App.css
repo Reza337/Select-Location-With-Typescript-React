@@ -1,0 +1,75 @@
+h1 {
+	margin-top: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 1px solid slategrey;
+}
+.container-form {
+	max-width: 900px;
+	margin: 80px auto;
+}
+.form-select {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.form-select label {
+	text-transform: uppercase;
+	margin-top: 15px;
+	padding-left: 10px;
+	width: 20px;
+	font-weight: bolder;
+}
+
+.form-select select {
+	height: 40px;
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 8px 0 8px;
+	box-shadow: 0px 6px 23px -6px rgba(0, 0, 0, 0.77);
+	-webkit-box-shadow: 0px 6px 23px -6px rgba(0, 0, 0, 0.77);
+	-moz-box-shadow: 0px 6px 23px -6px rgba(0, 0, 0, 0.77);
+	cursor: pointer;
+}
+.form-select select option {
+	cursor: pointer;
+}
+
+.value-input {
+	max-width: 900px;
+	margin: 120px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.value-input div {
+	display: flex;
+
+	flex-direction: column;
+	gap: 10px;
+	text-transform: uppercase;
+}
+.value-input div input {
+	font-weight: bold;
+	padding: 0 12px 0 12px;
+	color: white;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	background-color: black;
+	box-shadow: 0px 6px 23px -6px rgba(0, 0, 0, 0.77);
+	-webkit-box-shadow: 0px 6px 23px -6px rgba(0, 0, 0, 0.77);
+	-moz-box-shadow: 0px 6px 23px -6px rgba(0, 0, 0, 0.77);
+}
+
+.value-input label {
+	font-weight: bolder;
+	width: 20px;
+	padding-left: 8px;
+}
